@@ -1,0 +1,38 @@
+{
+  "name": "@arpowers/blog",
+  "version": "3.1.9",
+  "url": "https://www.darwin.so/blog",
+  "main": "src/index.ts",
+  "author": "Fiction.com",
+  "license": "UNLICENSED",
+  "scripts": {
+    "release": "git pull && npm version patch && npm publish && git push",
+    "save": "git add -A && git commit -m 'content' && yarn release"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "factor": {
+    "name": "AndrewPowers.co",
+    "email": "hello@andrewpowers.co",
+    "url": "https://www.andrewpowers.co",
+    "domain": "andrewpowers.co"
+  },
+  "dependencies": {
+    "@factor/cli": "^3.0.9",
+    "@factor/entry": "^3.0.8",
+    "@factor/plugin-blog-engine": "^3.0.0",
+    "@factor/plugin-notify": "^3.0.9",
+    "@factor/render": "^3.0.8",
+    "@factor/ui": "^3.0.9",
+    "@vitejs/plugin-vue": "^1.2.5",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/typography": "^0.4.0",
+    "less": "^4.1.1",
+    "tailwindcss-aspect-ratio": "^3.0.0",
+    "tailwindcss-responsive-embed": "^1.0.0"
+  }
+}
