@@ -1,5 +1,5 @@
 {
-  "name": "@arpowers/blog",
+  "name": "@arpowers/site",
   "version": "3.1.9",
   "url": "https://www.darwin.so/blog",
   "main": "src/index.ts",
@@ -26,12 +26,27 @@
     "@factor/render": "^3.0.8",
     "@factor/ui": "^3.0.9",
     "@vitejs/plugin-vue": "^1.2.5",
+    "postcss": "^8.3.6",
     "tailwindcss": "^2.0.3"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.3.2",
     "@tailwindcss/typography": "^0.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^24.0.0",
+    "eslint-plugin-json": "^3.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unicorn": "^35.0.0",
+    "eslint-plugin-vue": "^7.1.0",
     "less": "^4.1.1",
+    "prettier": "^2.0.4",
+    "prettier-eslint": "^13.0.0",
     "tailwindcss-aspect-ratio": "^3.0.0",
     "tailwindcss-responsive-embed": "^1.0.0"
   }

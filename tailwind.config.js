@@ -72,43 +72,9 @@ module.exports = {
       height: {
         "fit-content": "fit-content",
       },
-      typography: (theme) => ({
-        DEFAULT: {
-          css: {
-            color: theme("colors.bluegray.700"),
-            a: {
-              color: theme("colors.primary.500"),
-              "&:hover": {
-                color: theme("colors.primary.600"),
-              },
-            },
-            code: {
-              background: theme("colors.primary.50"),
-              fontWeight: "normal",
-              padding: ".2rem .25rem",
-              borderRadius: "0.5rem",
-            },
-            "code::before": {
-              content: '""',
-            },
-            "code::after": {
-              content: '""',
-            },
-            h1: {
-              fontWeight: "600",
-            },
-            h2: {
-              fontWeight: "600",
-            },
-            h3: {
-              fontWeight: "500",
-            },
-            h4: {
-              fontWeight: "500",
-            },
-          },
-        },
-      }),
+      fontFamily: {
+        serif: "corundum-text, serif",
+      },
     },
     colors: {
       ...colors,
