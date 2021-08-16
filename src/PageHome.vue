@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20 px-32 font-serif">
+  <div class="py-20 px-32">
     <div class="max-w-prose m-auto">
       <div class="mb-8">
         <a
@@ -13,7 +13,8 @@
         <p>
           Get my newsletter. It features long-form essays on data-driven
           marketing, growth hacking, metrics, and network effects. I plan on
-          writing every week, and delivering the most value I possibly can.
+          writing essays every week, and delivering as many insights as I
+          possibly can.
         </p>
         <p>
           These days, I’m the founder and CEO of
@@ -22,10 +23,10 @@
             href="https://www.darwin.so"
             >Darwin</a
           >, where I focus on building the future of data, analytics, and
-          marketing tools. I also do occasional investing and acquisitions .
-          Previously, I built a web tools and frameworks business, PageLines,
-          from 0 to 72,000 customers. I’ll share from these experiences, and
-          more, on my newsletter.
+          marketing tools. I also do occasional investing and micro
+          acquisitions. Previously, I built and sold a web tools and frameworks
+          business which I bootstrapped to 72,000 customers. I’ll share from
+          these experiences, and more, on my newsletter.
         </p>
       </div>
       <div>
