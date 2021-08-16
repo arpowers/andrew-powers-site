@@ -1,26 +1,15 @@
 <template>
-  <router-view />
+  <Content />
   <Veil />
   <Toaster />
 </template>
 
-<script lang="ts">
+<script setup>
 import Content from "../src/Content.vue"
 import Veil from "@factor/ui/Veil.vue"
 import Toaster from "@factor/plugin-notify/Toaster.vue"
-import { useRouter } from "vue-router"
-export default {
-  name: "App",
-  components: {
-    Content,
-    Veil,
-    Toaster,
-  },
-  setup() {
-    const router = useRouter()
-
-    console.log("GGGGG", router.getRoutes())
-    return {}
-  },
-}
 </script>
+
+<style lang="less">
+@import "./style.less";
+</style>

@@ -1,0 +1,75 @@
+body,
+html {
+  border: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+.factor-app {
+  // Colors
+  --color-primary: rgb(82, 51, 255);
+  --color-text: #3a4854;
+
+  // Typography
+  @font-face {
+    font-family: "neue-haas";
+    src: url("/NeueHaasDisplayLight.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "neue-haas";
+    src: url("/NeueHaasDisplayRoman.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "neue-haas";
+    src: url("/NeueHaasDisplayMedium.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "neue-haas";
+    src: url("/NeueHaasDisplayBold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "neue-haas";
+    src: url("/NeueHaasDisplayBlack.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  --font-family-primary: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  color: var(--color-text);
+  font-family: var(--font-family-primary);
+
+  button:focus input:focus {
+    outline: none;
+  }
+
+  // ElemBrowser Resize
+  .cursor-ew-resize {
+    cursor: ew-resize;
+  }
+
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}

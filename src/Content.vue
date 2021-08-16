@@ -1,14 +1,9 @@
 <template>
-  <div class="content-layout"><router-view /></div>
+  <div class="content-layout max-w-7xl m-auto">
+    <PageHeader />
+    <router-view />
+  </div>
 </template>
-<script lang="ts">
-export default {
-  name: "ContentWrap",
-  components: {},
-  setup() {
-    return {}
-  },
-}
+<script setup>
+import PageHeader from "./PageHeader.vue"
 </script>
-
-<style lang="less"></style>

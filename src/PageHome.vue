@@ -1,23 +1,45 @@
 <template>
-  <div class="py-20 px-32">
-    <div class="max-w-prose m-auto">
+  <div class="py-20 px-4 grid grid-cols-12 gap-20">
+    <div class="col-span-6">
       <div class="mb-8">
-        <a
-          href="https://www.twitter.com/arpowers"
-          class="italic text-2xl text-primary-500 hover:text-orange-600"
-          >@arpowers</a
-        >
-        <h1 class="text-5xl">Andrew Powers</h1>
+        <div class="flex items-baseline italic">
+          <svg class="h-5 w-5 text-primary-500 mr-1" viewBox="0 0 512 512">
+            <g>
+              <path
+                fill="currentColor"
+                d="M256,151.704c-57.509,0-104.296,46.787-104.296,104.296S198.491,360.296,256,360.296
+  			c29.867,0,56.821-12.639,75.852-32.825c19.031,20.186,45.985,32.825,75.852,32.825C465.213,360.296,512,313.509,512,256
+  			C512,114.842,397.158,0,256,0S0,114.842,0,256s114.842,256,256,256c68.38,0,132.667-26.628,181.019-74.98l-40.226-40.226
+  			C359.185,434.4,309.185,455.111,256,455.111C146.21,455.111,56.889,365.79,56.889,256S146.21,56.889,256,56.889
+  			S455.111,146.21,455.111,256c0,26.14-21.267,47.407-47.407,47.407c-26.14,0-47.407-21.267-47.407-47.406V256
+  			C360.296,198.491,313.509,151.704,256,151.704z M256,303.407c-26.14,0-47.407-21.267-47.407-47.407S229.86,208.593,256,208.593
+  			S303.407,229.86,303.407,256S282.14,303.407,256,303.407z"
+              />
+            </g>
+          </svg>
+
+          <a
+            href="https://www.twitter.com/arpowers"
+            class="font-medium text-2xl text-primary-500 hover:text-orange-600"
+            >arpowers</a
+          >
+        </div>
+        <div class="my-6">
+          <h1 class="text-5xl font-extrabold tracking-tight leading-tight">
+            Want to grow your business with data and metrics?
+          </h1>
+        </div>
       </div>
       <div class="text-xl leading-relaxed space-y-4">
         <p>
           Get my newsletter. It features long-form essays on data-driven
-          marketing, growth hacking, metrics, and network effects. I plan on
-          writing essays every week, and delivering as many insights as I
-          possibly can.
+          marketing, growth hacking, metrics, design and network effects. I
+          write essays every week, and delivering as many insights as I possibly
+          can.
         </p>
         <p>
-          These days, I’m the founder and CEO of
+          <span class="font-bold">About Me:</span> These days, I’m the founder
+          and CEO of
           <a
             class="text-primary-500 hover:text-orange-600"
             href="https://www.darwin.so"
@@ -29,56 +51,20 @@
           these experiences, and more, on my newsletter.
         </p>
       </div>
-      <div>
-        <form class="mt-8 sm:flex">
-          <label for="email-address" class="sr-only">Email address</label>
-          <input
-            id="email-address"
-            name="email"
-            type="email"
-            autocomplete="email"
-            required
-            class="
-              w-full
-              px-5
-              py-3
-              placeholder-gray-500
-              focus:ring-primary-500 focus:border-primary-500
-              sm:max-w-xs
-              border-bluegray-400
-              rounded-md
-              font-sans
-            "
-            placeholder="email@work.com"
-          />
-          <div class="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-            <button
-              type="submit"
-              class="
-                w-full
-                flex
-                items-center
-                justify-center
-                px-5
-                py-3
-                border border-transparent
-                text-base
-                rounded-md
-                text-primary-100
-                bg-primary-500
-                hover:bg-primary-700
-                focus:outline-none
-                focus:ring-2
-                focus:ring-offset-2
-                focus:ring-primary-500
-                font-sans
-              "
-            >
-              Sign Up &rarr;
-            </button>
-          </div>
-        </form>
+      <div class="my-12 flex justify-between">
+        <ElemButton btn="primary" size="lg"
+          >Get Essays via Email &rarr;</ElemButton
+        >
+        <ElemButton btn="default" size="lg"
+          >Help Me Grow My Business &rarr;</ElemButton
+        >
       </div>
+    </div>
+    <div class="img col-span-6">
+      <img class="rounded-full" src="./img/powers-profile.webp" />
     </div>
   </div>
 </template>
+<script setup>
+import ElemButton from "@factor/ui/ElemButton.vue"
+</script>
