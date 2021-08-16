@@ -29,6 +29,7 @@ const darwinDark = {
 const bluegray = {
   25: "#fafafa",
   50: "#F8FAFC",
+  75: "#F8FAFC",
   100: "#e3eaf3",
   200: "#E3E8EE",
   300: "#d1dce5",
