@@ -1,14 +1,18 @@
 import blogEngine from "@factor/plugin-blog-engine"
-import { installPlugin } from "@factor/api"
 
 import { map as blogMap } from "../content/map"
 
 import { initializeRoutes } from "./routes"
+import { UserConfigApp } from "@factor/types"
 
-export const setup = (): void => {
-  installPlugin(blogEngine, {
-    map: blogMap,
-  })
-
+export const setup = (): UserConfigApp => {
   initializeRoutes()
+
+  return {
+    plugins: [
+      blogEngine({
+        map: blogMap,
+      }),
+    ],
+  }
 }
