@@ -12,6 +12,9 @@
   "publishConfig": {
     "access": "restricted"
   },
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "factor": {
     "name": "AndrewPowers.co",
     "email": "hello@andrewpowers.co",
