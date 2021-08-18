@@ -1238,15 +1238,15 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@factor/api@3.1.8":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/api/-/api-3.1.8.tgz#61ec114fd5db7b24586c5b609ca5d560dfdd23db"
-  integrity sha512-Q1FGlH7zYuBuYFL9BsC6wrv65/Lf8R7jGk6nq0ujv8WXsBmmC+qBiYGEv38VTdwDFhA0WUs+ZzSBg1EZNPHayQ==
+"@factor/api@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/api/-/api-3.2.0.tgz#0292aeed65aa7eed75fede6e137e4d06139d6777"
+  integrity sha512-uoMx1qaZNw+SXIUcYe2fMwmchl9HL0QVmodYpwmKznIpOXr2Nhw0jG6EpLPFcPaRPg5neDmR/2ZHJKBJnAYcqg==
   dependencies:
-    "@factor/api" "3.1.8"
-    "@factor/server" "3.1.8"
-    "@factor/types" "3.1.8"
-    "@factor/ui" "3.1.8"
+    "@factor/api" "3.2.0"
+    "@factor/server" "3.2.0"
+    "@factor/types" "3.2.0"
+    "@factor/ui" "3.2.0"
     "@types/blueimp-load-image" "^5.14.0"
     "@types/js-cookie" "^2.2.7"
     "@types/markdown-it" "^12.0.0"
@@ -1278,12 +1278,12 @@
     vue-router "^4.0.10"
     vuex "^4.0.0-rc.1"
 
-"@factor/build@3.1.8":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/build/-/build-3.1.8.tgz#27b907540e5d57b34b5c3dcebd05ced3e52fae33"
-  integrity sha512-zl05ioaK3mFfy9zCe+RZmdGWwZuAU59ja4ZMMQphQHqh60K4LBk0P3sy/om334uxA02EY464Dk26GxcZU2HdZg==
+"@factor/build@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/build/-/build-3.2.0.tgz#661aff1501ae15368012a46aa029204e22227d2e"
+  integrity sha512-tnastOrRdYimWA9VCqOiSu1AwkKLEqym4z1ZDMEpi+MyCMFetQ6xWlZ9ZnsHHA2zyR3yWVOTcw9ZVYpYTu2fGA==
   dependencies:
-    "@factor/server-utils" "3.1.8"
+    "@factor/server-utils" "3.2.0"
     cors "^2.8.5"
     enquirer "^2.3.5"
     execa "^5.0.0"
@@ -1294,16 +1294,16 @@
     semver "^7.3.2"
 
 "@factor/cli@^3.0.9":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/cli/-/cli-3.1.8.tgz#21407bf87e3fbb99bc1dad877b5a2f5b2e23e044"
-  integrity sha512-pb2o60TKWdpMe2qbNkrhacfao/at2wAJubDVdQb3nenWYhdK4JWUuGLn7WLP5pWXOgcZ7gcLLzxJTFlB3LW//g==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/cli/-/cli-3.2.0.tgz#b3a37f2fb9497a86e854c4fcc22d48a18b25ebf2"
+  integrity sha512-ZywKmEpQvo+PrOWvoieepRspxMxPTyECMbE9RFc+k2j9s0M6QXpXZFVq26Jeyvteb5m9jDzrwXo4htGU2h4yNA==
   dependencies:
-    "@factor/api" "3.1.8"
-    "@factor/build" "3.1.8"
-    "@factor/render" "3.1.8"
-    "@factor/server" "3.1.8"
-    "@factor/server-utils" "3.1.8"
-    "@factor/types" "3.1.8"
+    "@factor/api" "3.2.0"
+    "@factor/build" "3.2.0"
+    "@factor/render" "3.2.0"
+    "@factor/server" "3.2.0"
+    "@factor/server-utils" "3.2.0"
+    "@factor/types" "3.2.0"
     axios "^0.21.0"
     commander "^8.0.0"
     deepmerge "^4.2.2"
@@ -1318,14 +1318,14 @@
     typescript "^4.0.0"
     vue "^3.0.2"
 
-"@factor/entry@3.1.8", "@factor/entry@^3.0.8":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/entry/-/entry-3.1.8.tgz#2655cec4d2d8824eb13e651059d08cbdfd49c0ae"
-  integrity sha512-paiz1hJPrz2AjtSYYswxrZ3B7pHZxTwAWTSA9jg+wfc83x+Lu8Z5nv2//dG2V+PPA/sXmpUjz1tDKErop/hF3g==
+"@factor/entry@3.2.0", "@factor/entry@^3.0.8":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/entry/-/entry-3.2.0.tgz#b8a9feac12f794866c0d062d489ea5721d642041"
+  integrity sha512-yaJGwr+nrGyfxI4d7yqM0j6gu288XfuFZefuT7Zz9MlcEQpl/Pa8q+5sq+BS/YDwctXGfH1Xd/S8+qJ193uD0Q==
   dependencies:
-    "@factor/api" "3.1.8"
-    "@factor/types" "3.1.8"
-    "@factor/ui" "3.1.8"
+    "@factor/api" "3.2.0"
+    "@factor/types" "3.2.0"
+    "@factor/ui" "3.2.0"
     "@vueuse/head" "^0.6.0"
     tailwindcss "^2.2.4"
     vue "^3.0.2"
@@ -1333,47 +1333,47 @@
     vuex "^4.0.0"
 
 "@factor/plugin-blog-engine@^3.1.7":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/plugin-blog-engine/-/plugin-blog-engine-3.1.8.tgz#08e35d04743cf071b04a2becfe642dd44d50e065"
-  integrity sha512-X7VKjcnBalqRoc5F2o1xzHZuGJjFz+GxxJo94BMGYHQMVKMXfygzuSIaVT6P9y9795FbC0Rx4xBVPibRhLlm/g==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/plugin-blog-engine/-/plugin-blog-engine-3.2.0.tgz#6293d5b7b0661b1252f020516e0e2e955a92b459"
+  integrity sha512-sGmjs1vFh3hJUoEHREJ9GK4blWGcxSuYRPYVvr0I0KDdCgxA1DjfaSM4Yu401J1Ysk81YBnd+QIMCAyVzIAnOw==
   dependencies:
-    "@factor/api" "3.1.8"
-    "@factor/plugin-highlight-code" "3.1.8"
-    "@factor/server" "3.1.8"
-    "@factor/types" "3.1.8"
-    "@factor/ui" "3.1.8"
+    "@factor/api" "3.2.0"
+    "@factor/plugin-highlight-code" "3.2.0"
+    "@factor/server" "3.2.0"
+    "@factor/types" "3.2.0"
+    "@factor/ui" "3.2.0"
     dayjs "^1.10.6"
     vue "^3.0.0"
     vue-router "^4.0.10"
 
-"@factor/plugin-highlight-code@3.1.8":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/plugin-highlight-code/-/plugin-highlight-code-3.1.8.tgz#5ef40dbe656d76c72ef7e8957bea5cbf5db71fc6"
-  integrity sha512-zSz7WNcua+cofnOcXx6Pvj9cpADPq8F5HdV1ttVnH0vrgw+fD8lcF9wbsczpyb8SKARGe6iH/ZE8ZfDRzY2ZUw==
+"@factor/plugin-highlight-code@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/plugin-highlight-code/-/plugin-highlight-code-3.2.0.tgz#3e21969d77fc5eeb36c3875d693793a643e945fd"
+  integrity sha512-VmScJ+ncpeLM4cQEe89nEVLWHTbmn4USL4mDAEbLQ1kFVgCRlol7T/HYI8k7Hr4wgRBPjhVEnrt/pYLFzg592g==
   dependencies:
-    "@factor/api" "3.1.8"
+    "@factor/api" "3.2.0"
     prismjs "^1.22.0"
     vue "^3.0.0"
 
 "@factor/plugin-notify@^3.0.9":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/plugin-notify/-/plugin-notify-3.1.8.tgz#c354afb2865f7246a3dcad5543d5f7556ddd3a1d"
-  integrity sha512-GrVF+1/k/wEyWTVkdVpRTkwtZwdS3uDKdRX7nOFXLIMkVKMZJmQo+lrmjkaRvi/VWxiyq2zDnBORBTy0+SoUPw==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/plugin-notify/-/plugin-notify-3.2.0.tgz#9221ab18437378f6fc94b759db8c7457c5a99cc2"
+  integrity sha512-iMoZxgTbPohPNB6tVAE8La2xAO+uRYLTBRv5/+/dFGDxfKEQuSxoQZxW7/jzvxl7WyTM7eKDJCkNCiB0P5PXAg==
   dependencies:
-    "@factor/api" "3.1.8"
-    "@factor/types" "3.1.8"
+    "@factor/api" "3.2.0"
+    "@factor/types" "3.2.0"
     vue "^3.0.0"
 
-"@factor/render@3.1.8", "@factor/render@^3.0.8":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/render/-/render-3.1.8.tgz#f1b61d9b8863eb23b581752ca49fe915aafc0e8d"
-  integrity sha512-2BxXMt0JNurUIpFSSRdhstXjQ0UVUlo+WuWXfTA6DHyWPakY6qfsJEwHFQNr8XsNIyuBnviZRoX3wVXuB9FCBw==
+"@factor/render@3.2.0", "@factor/render@^3.0.8":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/render/-/render-3.2.0.tgz#1635b5493a0f25d6e2e57e805bf1302285b4d249"
+  integrity sha512-tJHvVVLWSJF/x53no76JKnbarWpnDT1YqXbcTpOnRzWFcNQwEFkfP2vTtEXHOSK0AWC/YMbrKg5lFWJvybqE6w==
   dependencies:
-    "@factor/api" "3.1.8"
-    "@factor/entry" "3.1.8"
-    "@factor/server" "3.1.8"
-    "@factor/server-utils" "3.1.8"
-    "@factor/types" "3.1.8"
+    "@factor/api" "3.2.0"
+    "@factor/entry" "3.2.0"
+    "@factor/server" "3.2.0"
+    "@factor/server-utils" "3.2.0"
+    "@factor/types" "3.2.0"
     "@tailwindcss/forms" "^0.3.3"
     "@types/html-minifier" "^4.0.0"
     "@types/tailwindcss" "^2.0.2"
@@ -1399,14 +1399,14 @@
     vue "^3.0.11"
     vue-router "^4.0.0"
 
-"@factor/server-utils@3.1.8":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/server-utils/-/server-utils-3.1.8.tgz#8221432ad8a26772944f0819bc9725c3624ecb55"
-  integrity sha512-lgzk/GPoGD2olUSjpP04hzRcOhevsMBpwthXzKkTCpFcpQWG50mn/FTaLz8AsLOFbbwsvCZzvjMoSZDpPV9Dhg==
+"@factor/server-utils@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/server-utils/-/server-utils-3.2.0.tgz#28112175b561f46cd5ce286f1554add8cea26fe6"
+  integrity sha512-oJXnsA72bJxB7e6xKXE47qBHqT12+Nn++wyu63VCtKxdLQ6PsYy2AdMCFKWQ4HGg0Y350m9P0FZwJ+szlVSGQA==
   dependencies:
-    "@factor/api" "3.1.8"
-    "@factor/server" "3.1.8"
-    "@factor/types" "3.1.8"
+    "@factor/api" "3.2.0"
+    "@factor/server" "3.2.0"
+    "@factor/types" "3.2.0"
     chalk "^4.1.1"
     cli-highlight "^2.1.4"
     consola "^2.15.0"
@@ -1416,14 +1416,14 @@
     prettyoutput "^1.2.0"
     ws "^8.1.0"
 
-"@factor/server@3.1.8":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/server/-/server-3.1.8.tgz#dca3cc33cbdf083f8072c43319f9f020e55bf63e"
-  integrity sha512-hipL0uru3yDBZ4+/KF0GETGX9fIEd+1Lt6v5ToREqJ21QvnF1Op58HB0gsaxwn9m6FFYdMXcRMaZ2gCqvlTiPg==
+"@factor/server@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/server/-/server-3.2.0.tgz#c2ef827326ebe3ebda7fa182c57d50869bcb2e29"
+  integrity sha512-edRCa20eNg7z/EOM5YnOy89LIds0LX3itaxtl4qB6h/63Mt7YcvhANh1cF0tjbhoKE+nTRoFLTHnBn5iF9KB8A==
   dependencies:
-    "@factor/api" "3.1.8"
-    "@factor/server-utils" "3.1.8"
-    "@factor/types" "3.1.8"
+    "@factor/api" "3.2.0"
+    "@factor/server-utils" "3.2.0"
+    "@factor/types" "3.2.0"
     "@types/bcrypt" "^5.0.0"
     "@types/compression" "^1.7.0"
     "@types/cors" "^2.8.10"
@@ -1452,12 +1452,12 @@
     pg "^8.5.1"
     serve-static "^1.14.1"
 
-"@factor/types@3.1.8":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/types/-/types-3.1.8.tgz#47355e9813c926675525d4bf8cee916d54d39458"
-  integrity sha512-XlVgRrZvIzxubPTrAULdgk/koYdGtqmXqy42H0kYFoseQKIwhCsCAQ+4Be+mBjOcHxPcwBgLRV89p6OolX2Eeg==
+"@factor/types@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/types/-/types-3.2.0.tgz#71526a287a03a9dc0a1b37be26900c9b3444e9e0"
+  integrity sha512-e8LgnbpSfUR0VaJ7Rs5iQVvNdbLIIn4h/5+CBcTtE/C6bFRaxmDpwDymfJ9wnlnee4ldyQ3tdxAMwyFx5JSQTw==
   dependencies:
-    "@factor/api" "3.1.8"
+    "@factor/api" "3.2.0"
     "@types/fs-extra" "^9.0.3"
     "@types/glob" "^7.1.3"
     "@types/minimist" "^1.2.0"
@@ -1467,13 +1467,13 @@
     vue-router "^4.0.10"
     vuex "^4.0.2"
 
-"@factor/ui@3.1.8", "@factor/ui@^3.0.9":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@factor/ui/-/ui-3.1.8.tgz#31186087335861daacc8de75e29e927e98181d6c"
-  integrity sha512-ie/FgFDKHGWx3e1BqARihNXzyI+0RPovraaXh8hZh0/iws+vxUe16xV8Ssb0l/8flHeBzm5RqdNNATG+Dr6tfw==
+"@factor/ui@3.2.0", "@factor/ui@^3.0.9":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@factor/ui/-/ui-3.2.0.tgz#eb031e210477f6b78f98f05bbcbfab8e04099c65"
+  integrity sha512-rRQOrdrA07xUilDN5B5GYbbB7UuAZQe4vN3/sPpajY/XzozKPecgkZIWunkaS0JW6OFRmALZWJx1g/GxBnLcyQ==
   dependencies:
-    "@factor/api" "3.1.8"
-    "@factor/types" "3.1.8"
+    "@factor/api" "3.2.0"
+    "@factor/types" "3.2.0"
     easymde "^2.9.0"
     gravatar "^1.8.0"
     sortablejs "^1.12.0"

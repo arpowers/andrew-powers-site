@@ -1,19 +1,37 @@
 <template>
   <div>
     <div class="mb-4 lg:mb-12">
-      <h1 class="mb-8">
-        <span
-          v-if="config.publishDate"
-          class="
-            block
-            text-base text-center text-bluegray-500
-            font-semibold
-            tracking-wide
-            uppercase
-            xl:text-lg
-          "
-          >{{ dayjs(config.publishDate).format("MMM DD, YYYY") }}</span
-        >
+      <div
+        class="
+          text-center
+          mb-6
+          text-sm
+          uppercase
+          tracking-wide
+          font-bold
+          text-color-400
+          space-x-4
+          flex
+          justify-center
+        "
+      >
+        <router-link to="/blog" class="">&larr; All Posts </router-link>
+      </div>
+
+      <h1
+        class="
+          mb-8
+          font-extrabold
+          tracking-tight
+          mt-4
+          block
+          text-3xl text-center
+          leading-8
+          sm:text-4xl
+          xl:text-6xl
+        "
+      >
+        <span class="">{{ config.title }}</span>
         <span
           class="
             mt-4
@@ -24,8 +42,9 @@
             tracking-tight
             sm:text-4xl
             xl:text-6xl
+            text-color-700
           "
-          >{{ config.title }}</span
+          >{{ config.titleSub }}</span
         >
       </h1>
       <div

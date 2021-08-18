@@ -1,5 +1,6 @@
 ---
-title: Researching Your Writing - Cicero’s Method
+title: Researching Your Writing
+titleSub: Cicero’s Method
 description: How did Cicero manage to write well? Here are some ideas.
 authorName: Andrew Powers
 authorWebsite: https://linkedin.com/in/arpowers

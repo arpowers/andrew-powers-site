@@ -20,10 +20,25 @@
               {{ type }}
             </a>
           </p>
-          <router-link :to="post.path" class="block mt-2">
-            <p class="text-xl font-semibold">
-              {{ post.title }}
-            </p>
+          <router-link
+            :to="post.path"
+            class="block mt-2 group"
+            :title="`${post.title} ${post.titleSub}`"
+          >
+            <h3 class="text-xl font-bold">
+              <span
+                class="block text-color group-hover:text-primary-500"
+                v-if="post.title"
+              >
+                {{ post.title }}</span
+              >
+              <span
+                class="block text-color-600 group-hover:text-primary-400"
+                v-if="post.titleSub"
+              >
+                {{ post.titleSub }}</span
+              >
+            </h3>
             <p class="mt-3 text-base text-color-500">
               {{ post.excerpt || post.description }}
             </p>
