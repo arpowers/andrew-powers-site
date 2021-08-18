@@ -17,5 +17,5 @@
     "types": ["node"],
     "lib": ["ES2020", "DOM"] // vue/vetur needs this
   },
-  "exclude": ["node_modules", "cdk.out", ".ref/**", "**/dist"]
+  "exclude": ["`node_modules/(?!(@factor))`", "cdk.out", ".ref/**", "**/dist"]
 }

@@ -24,9 +24,10 @@ export default {
     PostList,
   },
   setup() {
-    const title = "Darwin Blog"
+    const title = "Essays by Andrew Powers"
 
-    const description = "Digital, Marketing, and Business Analytics Insights"
+    const description =
+      "Studies on data-driven decision making, marketing, engineering, design and philosophy."
 
     useMeta({
       title: title,

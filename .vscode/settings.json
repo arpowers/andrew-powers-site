@@ -26,6 +26,7 @@
     "**/.ref": true,
     "*.lock": true,
     "*.log": true,
+    "./dist": true,
     "**/dist": true,
     "**/dist/**": true,
     "node_modules": true,

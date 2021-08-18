@@ -57,7 +57,12 @@
           </p>
         </div>
         <div class="my-12 flex justify-between">
-          <ElemButton btn="primary" size="lg">Get Newsletter &rarr;</ElemButton>
+          <ElemButton
+            btn="primary"
+            size="lg"
+            @click.stop="emitEvent('nlSignup')"
+            >Get Newsletter &rarr;</ElemButton
+          >
         </div>
       </div>
       <div class="img col-span-6">
@@ -70,4 +75,5 @@
 <script setup>
 import ElemButton from "@factor/ui/ElemButton.vue"
 import BlogList from "./BlogList.vue"
+import { emitEvent } from "@factor/api"
 </script>

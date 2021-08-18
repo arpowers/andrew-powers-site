@@ -82,14 +82,21 @@
             rounded-md
           "
         >
-          <h4 class="font-semibold mb-1">About Darwin</h4>
+          <h4 class="font-semibold mb-1">Andrew Powers</h4>
           <div class="text-sm text-bluegray-500">
-            A marketing + analytics platform for startups and developers.
+            Data-driven Marketing and Design
           </div>
           <a
-            class="text-sm block text-primary-500 mt-2"
-            href="http://www.darwin.so"
-            >Learn More &rarr;</a
+            class="
+              text-sm
+              block
+              text-primary-500
+              mt-2
+              cursor-pointer
+              hover:text-primary-800
+            "
+            @click.stop="emitEvent('nlSignup')"
+            >Newsletter &rarr;</a
           >
         </div>
       </div>
@@ -140,8 +147,8 @@
                   >
                 </h2>
                 <div class="mt-8 flex space-x-4">
-                  <ElemButton href="https://www.darwin.so" btn="primary"
-                    >Learn More</ElemButton
+                  <ElemButton @click.stop="emitEvent('nlSignup')" btn="primary"
+                    >Get Updates</ElemButton
                   >
                 </div>
               </div>
@@ -163,7 +170,7 @@
 <script lang="ts">
 import ElemButton from "@factor/ui/ElemButton.vue"
 import ElemAvatar from "@factor/ui/ElemAvatar.vue"
-import { useMeta, camelize } from "@factor/api"
+import { useMeta, camelize, emitEvent } from "@factor/api"
 import { useRouter } from "vue-router"
 import ElemSpinner from "@factor/ui/ElemSpinner.vue"
 import { ref, computed, onServerPrefetch } from "vue"
@@ -263,7 +270,16 @@ export default {
       ],
     })
 
-    return { nav, config, loading, subHeaders, getContent, dayjs, baseRoute }
+    return {
+      nav,
+      config,
+      loading,
+      subHeaders,
+      getContent,
+      dayjs,
+      baseRoute,
+      emitEvent,
+    }
   },
 }
 </script>
