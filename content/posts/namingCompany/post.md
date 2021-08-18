@@ -23,7 +23,7 @@ If you attempt to name something with a group you will end up with the blandest,
 A lot of people think that a brand name should somehow explain what there company does.
 These category of naming is called “descriptive” branding and there are many downsides to it.
 
-Think about it, your brand is always presented with _context_ so adding a description in the name is unnecessary and redudant. Imagine, if Google had named themselved "Good Search Inc," then every time a journalist would introduce the company it would go something like this:
+Think about it, your brand is always presented with _context_ so adding a description in the name is unnecessary and redundant. Imagine, if Google had named themselves "Good Search Inc," then every time a journalist would introduce the company it would go something like this:
 
 > Good Search is a, ah, um, a good search company that makes it easier to search for stuff.
 
@@ -81,7 +81,7 @@ This one is basic psychology. People tend to build basic schemas for things that
 
 So when it comes to phonetics, that is, how your brand sounds when it’s said out loud, it’s important it has only two syllables, at least, as pronounced. For example, do you ever wonder why we call Los Angeles, “LA”; but we never call New York, “NY”? This is because people tend to want to shorten things to two syllables. The same goes for one syllable brands, people tend to lengthen those. So you might see many one syllable brands get the ‘.com’ thrown in with the brand for this reason (e.g. Moz.com instead of just Moz).
 
-Some brands like Amazon or my friend Maren’s company, Zirtual, are technically more than two syllables; however, when they are said out loud they are typically pronounced with two syllables. Try it! Amazon is typical said “Am-Zon” and Zirtual “Zirch-ul”.. neat concept huh?
+Some brands--like Amazon--are technically more than two syllables; however, when they are said out loud they only have two "hard" syllables so effectively, linguistically, they are easy to say.
 
 The same goes for spelling, people want names that are easy to spell and type on a keyboard. You may want to do some testing regarding this. Ask people to spell the name, if most can’t on the first try, then you probably want to keep looking. Try typing the name, make sure it’s not awkward and you can do it fast, this might be for your own benefit as much as your customers!
 
@@ -93,8 +93,6 @@ Over time your name tends to help shape the personality of your company’s bran
 - Virgin: Sexy, Youthful
 - Google: Playful
 - Twitter: Playful, child-like
-- Microsoft: evil corporate empire (lol)
-  .
 
 ## Conclusion
 

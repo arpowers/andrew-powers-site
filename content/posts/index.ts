@@ -20,4 +20,11 @@ export const map = {
     fileImport: () => import("./namingCompany/post.md"),
     imageImport: () => import("./namingCompany/image.webp"),
   },
+  premiumBrandingPicassoMethod: {
+    publishDate: "2021-5-10",
+    status: "published",
+    type: ["guide"],
+    fileImport: () => import("./picasso/post.md"),
+    imageImport: () => import("./picasso/image.webp"),
+  },
 }

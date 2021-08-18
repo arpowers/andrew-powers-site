@@ -1,9 +1,9 @@
 <template>
-  <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+  <div class="mt-12 max-w-lg mx-auto grid gap-8 lg:grid-cols-3 lg:max-w-none">
     <div
       v-for="(post, i) in content"
       :key="i"
-      class="flex flex-col rounded-lg border border-x-200 overflow-hidden"
+      class="flex flex-col rounded-lg border border-color-200 overflow-hidden"
     >
       <div class="flex-shrink-0">
         <img class="h-48 w-full object-cover" :src="post.postImage" alt="" />
