@@ -1,9 +1,11 @@
 <template>
   <div class="content-layout max-w-7xl m-auto">
-    <PageHeader />
+    <SiteHeader />
     <router-view />
+    <SiteFooter />
   </div>
 </template>
 <script setup>
-import PageHeader from "./PageHeader.vue"
+import SiteHeader from "./SiteHeader.vue"
+import SiteFooter from "./SiteFooter.vue"
 </script>

@@ -24,7 +24,7 @@
   "dependencies": {
     "@factor/cli": "^3.0.9",
     "@factor/entry": "^3.0.8",
-    "@factor/plugin-blog-engine": "^3.0.0",
+    "@factor/plugin-blog-engine": "^3.1.7",
     "@factor/plugin-notify": "^3.0.9",
     "@factor/render": "^3.0.8",
     "@factor/ui": "^3.0.9",

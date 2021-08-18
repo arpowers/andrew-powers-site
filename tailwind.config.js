@@ -26,7 +26,7 @@ const darwinDark = {
   900: "#211c36",
 }
 
-const bluegray = {
+const color = {
   25: "#fafafa",
   50: "#F8FAFC",
   75: "#F8FAFC",
@@ -46,47 +46,18 @@ delete colors.lightBlue
 module.exports = {
   mode: "jit",
   purge: {
-    content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}", ...tw.paths],
-    options: {
-      safelist: ["bg-primary-600"],
-    },
+    content: ["./src/**/*.{vue,js,ts,jsx,tsx,html}", ...tw.paths],
   },
-  plugins: [
-    require("@tailwindcss/forms"),
-    require("tailwindcss-responsive-embed"),
-    require("tailwindcss-aspect-ratio"),
-    require("@tailwindcss/typography"),
-  ],
-  darkMode: false, // or 'media' or 'class'
-  variants: {
-    extend: {
-      translate: ["group-hover"],
-    },
-  },
+  plugins: [require("@tailwindcss/forms")],
+
   theme: {
-    extend: {
-      spacing: {
-        108: "27rem",
-        120: "30rem",
-        132: "33rem",
-      },
-      height: {
-        "fit-content": "fit-content",
-      },
-      fontFamily: {
-        serif: "corundum-text, serif",
-      },
-    },
     colors: {
       ...colors,
       transparent: "transparent",
       primary: darwin,
       dark: darwinDark,
-      bluegray,
-    },
-    aspectRatio: {
-      square: [1, 1],
-      screen: [1, 2],
+      bluegray: color,
+      color,
     },
   },
 }

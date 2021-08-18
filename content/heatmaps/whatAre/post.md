@@ -2,10 +2,10 @@
 title: What are Website Heatmaps?
 description: Learn about website heatmaps and their impact. Website heatmaps are a conversion optimization tool that helps you understand how pages on your website are performing.
 excerpt: Website heatmaps are a conversion optimization tool that helps you understand how pages on your website are performing.
-author: Andrew Powers
-authorUrl: https://linkedin.com/in/arpowers
-username: arpowers
-email: andrew@fiction.com
+authorName: Andrew Powers
+authorWebsite: https://linkedin.com/in/arpowers
+authorTwitter: arpowers
+authorEmail: andrew@fiction.com
 ---
 
 <div class="excerpt">

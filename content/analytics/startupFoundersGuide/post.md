@@ -1,10 +1,10 @@
 ---
 title: The Guide to Analytics for Startups
 description: Learn hard earned tips about how you should implement analytics at every stage of your startup.
-author: Andrew Powers
-authorUrl: https://linkedin.com/in/arpowers
-username: arpowers
-email: andrew@fiction.com
+authorName: Andrew Powers
+authorWebsite: https://linkedin.com/in/arpowers
+authorTwitter: arpowers
+authorEmail: andrew@fiction.com
 ---
 
 You need to be data-driven.

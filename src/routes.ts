@@ -1,14 +1,14 @@
-import { addRoutes } from "@factor/api";
-
-import PageHome from "./PageHome.vue";
-
-export const initializeRoutes = (): void => {
+import PageHome from "./PageHome.vue"
+import { RouteRecordRaw } from "vue-router"
+import { routes as blogRoutes } from "./blog/routes"
+export const getRoutes = (): RouteRecordRaw[] => {
   const routes = [
     {
       path: "/",
       component: PageHome,
     },
-  ];
+    ...blogRoutes,
+  ]
 
-  addRoutes(routes);
-};
+  return routes
+}

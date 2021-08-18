@@ -2,10 +2,10 @@
 title: 0 to 100k monthly visitors within 4 months - Darwin's SEO Process
 description:
 excerpt: Website heatmaps are a conversion optimization tool that helps you understand how pages on your website are performing.
-author: Andrew Powers
-authorUrl: https://linkedin.com/in/arpowers
-username: arpowers
-email: andrew@fiction.com
+authorName: Andrew Powers
+authorWebsite: https://linkedin.com/in/arpowers
+authorTwitter: arpowers
+authorEmail: andrew@fiction.com
 ---
 
 ## Your SEO Process

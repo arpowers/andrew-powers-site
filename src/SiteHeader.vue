@@ -1,7 +1,9 @@
 <template>
   <div class="header py-6 px-4 flex justify-between items-baseline">
     <div class="logo">
-      <router-link to="/" class="font-bold text-lg">Andrew Powers</router-link>
+      <router-link to="/" class="font-bold text-2xl hover:text-primary-500"
+        >AP</router-link
+      >
     </div>
     <div class="cta font-bold text-lg flex items-center">
       <span class="mr-2">Get the Newsletter</span>
