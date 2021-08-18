@@ -89,8 +89,6 @@ export default {
     const setContent = async () => {
       content.value = await getIndexContent()
 
-      console.log("set content", content.value)
-
       return
     }
 

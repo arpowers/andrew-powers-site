@@ -1,9 +1,13 @@
 <template>
   <div class="px-4 py-20">
-    <div class="grid grid-cols-12 gap-20">
-      <div class="col-span-6">
-        <div class="mb-8">
-          <div class="flex items-baseline italic">
+    <div class="lg:grid grid-cols-12 gap-20">
+      <div class="lg:col-span-6">
+        <div class="mb-4 lg:mb-8">
+          <div class="flex items-center italic mb-4">
+            <ElemAvatar
+              email="arpowers@gmail.com"
+              class="lg:hidden w-16 h-16 mr-4 rounded-full"
+            />
             <svg class="h-5 w-5 text-primary-500 mr-1" viewBox="0 0 512 512">
               <g>
                 <path
@@ -22,20 +26,30 @@
             <a
               href="https://www.twitter.com/arpowers"
               class="
-                font-medium
-                text-2xl text-primary-500
+                font-semibold
+                text-xl
+                lg:text-2xl
+                text-primary-500
                 hover:text-orange-600
               "
               >arpowers</a
             >
           </div>
           <div class="my-6">
-            <h1 class="text-4xl font-extrabold tracking-tight leading-tight">
+            <h1
+              class="
+                text-2xl
+                lg:text-4xl
+                font-extrabold
+                tracking-tight
+                leading-tight
+              "
+            >
               Andrew Powers
             </h1>
           </div>
         </div>
-        <div class="text-xl leading-relaxed space-y-4">
+        <div class="lg:text-xl leading-relaxed space-y-4">
           <p>
             Get my newsletter. It features long-form studies on data-driven
             decision making, growth marketing, metrics, design and network
@@ -65,7 +79,7 @@
           >
         </div>
       </div>
-      <div class="img col-span-6">
+      <div class="img hidden lg:block lg:col-span-6">
         <img class="rounded-full" src="./img/powers-profile.webp" />
       </div>
     </div>
@@ -73,6 +87,7 @@
   </div>
 </template>
 <script setup>
+import ElemAvatar from "@factor/ui/ElemAvatar.vue"
 import ElemButton from "@factor/ui/ElemButton.vue"
 import BlogList from "./BlogList.vue"
 import { emitEvent } from "@factor/api"
