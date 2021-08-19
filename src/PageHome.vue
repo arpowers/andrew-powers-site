@@ -52,9 +52,8 @@
         <div class="lg:text-xl leading-relaxed space-y-4">
           <p>
             Get my newsletter. It features long-form studies on data-driven
-            decision making, growth marketing, metrics, design and network
-            effects. I write essays every week, and delivering as many insights
-            as I possibly can.
+            decision making, growth marketing, engineering, and philosophy. I
+            write essays every week, and deliver insights as I learn them.
           </p>
           <p>
             <span class="font-bold">About Me:</span> These days, I’m the founder
@@ -65,9 +64,9 @@
               >Darwin</a
             >, where I focus on building the future of data, analytics, and
             marketing tools. I also do occasional investing and micro
-            acquisitions. Previously, I built and sold a web tools and
-            frameworks business which I bootstrapped to 72,000 customers. I’ll
-            share from these experiences, and more, on my newsletter.
+            acquisitions. Previously, I built and sold a web tools business
+            which I bootstrapped to 72,000+ customers. I’ll share from these
+            experiences, and more, on my newsletter.
           </p>
         </div>
         <div class="my-12 flex justify-between">

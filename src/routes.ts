@@ -7,6 +7,10 @@ export const getRoutes = (): RouteRecordRaw[] => {
       path: "/",
       component: PageHome,
     },
+    {
+      path: "/contact",
+      component: () => import("./PageContact.vue"),
+    },
     ...blogRoutes,
   ]
 

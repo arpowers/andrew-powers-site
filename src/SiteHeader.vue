@@ -30,33 +30,35 @@
         </svg>
       </router-link>
     </div>
-    <div
-      class="
-        cta
-        font-medium
-        text-sm
-        flex
-        items-center
-        cursor-pointer
-        hover:opacity-70
-      "
-      @click.stop="emitEvent('nlSignup')"
-    >
-      <span class="mr-2">Get the Newsletter</span>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6 text-primary-500"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
+    <div class="font-medium text-sm flex space-x-4 items-center">
+      <router-link
+        to="/contact"
+        class="hover:opacity-70 cursor-pointer"
+        active-class="text-primary-500"
       >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
-        />
-      </svg>
+        Contact
+      </router-link>
+
+      <div
+        class="cta flex items-center cursor-pointer hover:opacity-70"
+        @click.stop="emitEvent('nlSignup')"
+      >
+        <span class="mr-2">Get the Newsletter</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6 text-primary-500"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+          />
+        </svg>
+      </div>
     </div>
   </div>
 </template>
