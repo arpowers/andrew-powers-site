@@ -32,8 +32,9 @@
                 m-auto
                 text-center
                 py-5
-                text-primary-600
-                bg-color-25
+                text-primary-500
+                border-transparent
+                font-bold
               "
               href="mailto:hi@andrewpowers.co?subject=Hi Andrew!"
               value="hi@andrewpowers.co"
