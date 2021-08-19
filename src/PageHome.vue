@@ -90,5 +90,5 @@
 import ElemAvatar from "@factor/ui/ElemAvatar.vue"
 import ElemButton from "@factor/ui/ElemButton.vue"
 import BlogList from "./BlogList.vue"
-import { emitEvent } from "@factor/api"
+import { emitEvent, useMeta } from "@factor/api"
 </script>
