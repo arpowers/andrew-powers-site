@@ -211,15 +211,17 @@ export default {
     const nav = ref(blogSetting("map"))
     const config = ref<PostEntryConfig>({ attributes: {} })
     const at = computed<PostEntryConfig>(() => {
-      return {
+      const entry: PostEntryConfig = {
         publishDate: "2021-01-01",
         title: "",
         description: "",
         postImage: "",
         authorName: "Andrew Powers",
         readingMinutes: 1,
-        ...config.value.attributes,
+        ...config.value,
       }
+
+      return entry
     })
 
     const docId = computed<string | undefined>(() => {
@@ -227,10 +229,6 @@ export default {
       const id = camelize(params.postSlug as string)
 
       return id
-    })
-
-    const subHeaders = computed(() => {
-      return config.value.attributes || {}
     })
 
     const getContent = async (): Promise<void> => {
@@ -293,7 +291,6 @@ export default {
       nav,
       config,
       loading,
-      subHeaders,
       getContent,
       dayjs,
       baseRoute,

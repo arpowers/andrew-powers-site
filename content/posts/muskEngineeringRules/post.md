@@ -20,13 +20,15 @@ Here they are:
 
 ![Designing Requirements](./homer.jpg)
 
-A project's requirements are the design constraints or goals that are 'required' for success.
-
-There are many reasons they can be "dumb."
+A project's requirements are it's design constraints and goals. There are many reasons they can be "dumb."
 
 From my experience, requirement problems often come from a general poor understanding of the customer's true pain points and incentives. In Musk's, often requirements are dictated by physics.
 
-Either way, when many people get involved it becomes important to "trust" the requirements or you end up reinventing them in every project. For that reason, you should continually audit and reconsider requirements given to you for any project
+Requirements are never perfect. But often they are based on assumptions or experiences across many people.
+
+So when many people are involved it becomes important to "trust" what they've added the requirements or you end up reinventing them in every project. But as Musk states, some requirements could be from an intern who made it up years ago.
+
+For that reason, you should continually audit and reconsider requirements given to you for any project
 
 ## Delete Parts or Process
 
