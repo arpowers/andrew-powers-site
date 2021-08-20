@@ -100,11 +100,10 @@ export default {
 
       if (!email) throw new Error("email isn't set")
 
-      const formId = "17bf5269fe"
-
       const results = await Promise.all([
-        axios.post(`https://api.convertkit.com/v3/forms/${formId}/subscribe`, {
-          data: { email, api_key: "YrM6-9XdDon45pWUhXPKvw" },
+        axios.post(`https://api.convertkit.com/v3/forms/2538119/subscribe`, {
+          email,
+          api_key: "YrM6-9XdDon45pWUhXPKvw",
         }),
         darwin().identify(email, { email }),
       ])
