@@ -62,4 +62,8 @@ Lots of engineers like myself tend to start thinking about the interesting scali
 
 ## Watch the video
 
-<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/t705r8ICkRw?start=806" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/t705r8ICkRw?start=806&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Bonus: Musk Commenting on the "CyberTruck Window Incident"
+
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/ZmMZNNh5DUU?&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
