@@ -1,5 +1,5 @@
 export const map = {
-  mustFiveStepsProductDesign: {
+  muskFiveStepsProductDesign: {
     publishDate: "2021-8-19",
     status: "published",
     type: ["guide"],
