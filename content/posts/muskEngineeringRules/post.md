@@ -20,7 +20,9 @@ Here they are:
 
 ![Designing Requirements](./homer.jpg)
 
-A project's requirements are the design constraints or goals that are 'required' in order for the project to meet its goals. There are many reasons they can be "dumb."
+A project's requirements are the design constraints or goals that are 'required' for success.
+
+There are many reasons they can be "dumb."
 
 From my experience, requirement problems often come from a general poor understanding of the customer's true pain points and incentives. In Musk's, often requirements are dictated by physics.
 
@@ -34,7 +36,7 @@ Without vigilance projects will always become bloated with features.
 
 The less someone understands the entirety of a system; the harder it is for them to remove components of a system. That's why its safer to add a feature than to remove one. At least you know what the feature you added is for.
 
-There are many projects that failed because they just strapped on too many "in case" features.
+Many projects have failed because they just strapped on too many "in case" features.
 
 ## Simplify and Optimize
 
@@ -42,7 +44,7 @@ Now that you've refined requirements and deleted useless parts/process you can w
 
 It is important this always comes after the first two steps, as the ultimate waste of time is to optimize something that shouldn't exist in the first place.
 
-Must discusses how he spent millions trying to fix a protective plate for Tesla batteries. After asking around he found tha the battery team thought it was for noise protection, while the noise team thought it was for fire protection. In the end, it served no purpose at all and only existed due to bad requirements and poor cross department communication.
+Musk discusses how he spent millions trying to fix a protective plate for Tesla batteries. After asking around he found tha the battery team thought it was for noise protection, while the noise team thought it was for fire protection. In the end, it served no purpose at all and only existed due to bad requirements and poor cross department communication.
 
 ## Accelerate Cycle Time
 
