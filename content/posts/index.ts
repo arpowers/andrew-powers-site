@@ -1,4 +1,11 @@
 export const map = {
+  mustFiveStepsProductDesign: {
+    publishDate: "2021-8-19",
+    status: "published",
+    type: ["guide"],
+    fileImport: () => import("./muskEngineeringRules/post.md"),
+    imageImport: () => import("./muskEngineeringRules/image.jpg"),
+  },
   researchingBlogPostsCicero: {
     publishDate: "2021-3-24",
     status: "published",

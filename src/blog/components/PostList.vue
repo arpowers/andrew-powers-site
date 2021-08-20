@@ -5,9 +5,13 @@
       :key="i"
       class="flex flex-col rounded-lg border border-color-200 overflow-hidden"
     >
-      <div class="flex-shrink-0">
-        <img class="h-48 w-full object-cover" :src="post.postImage" alt="" />
-      </div>
+      <router-link class="block flex-shrink-0 hover:opacity-90" :to="post.path">
+        <img
+          class="h-48 w-full object-cover"
+          :src="post.postImage"
+          :alt="`${post.title} ${post.titleSub}`"
+        />
+      </router-link>
       <div class="flex-1 bg-white p-6 flex flex-col justify-between">
         <div class="flex-1">
           <p class="text-sm font-medium text-indigo-600">
