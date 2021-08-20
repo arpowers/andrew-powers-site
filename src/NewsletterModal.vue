@@ -57,7 +57,7 @@
               <ElemInput
                 input="email"
                 class="my-0 flex-grow"
-                v-model="email"
+                v-model="emailInput"
                 required
               />
 
@@ -73,20 +73,20 @@
 </template>
 
 <script lang="ts">
-import { onEvent } from "@factor/api"
+import { onEvent, dLog } from "@factor/api"
 import ElemModal from "@factor/ui/ElemModal.vue"
 import ElemForm from "@factor/ui/ElemForm.vue"
 import ElemButton from "@factor/ui/ElemButton.vue"
 import ElemInput from "@factor/ui/ElemInput.vue"
 import { darwin } from "./darwin"
 import { ref } from "vue"
-
+import axios from "axios"
 export default {
   components: { ElemModal, ElemInput, ElemForm, ElemButton },
 
   setup() {
     const vis = ref(false)
-    const email = ref("")
+    const emailInput = ref("")
     const sent = ref(false)
     const sending = ref(false)
     onEvent("nlSignup", () => {
@@ -96,7 +96,20 @@ export default {
 
     const signupForNewsletter = async (): Promise<void> => {
       sending.value = true
-      await darwin().identify("", { email: email.value })
+      const email = emailInput.value
+
+      if (!email) throw new Error("email isn't set")
+
+      const formId = "17bf5269fe"
+
+      const results = await Promise.all([
+        axios.post(`https://api.convertkit.com/v3/forms/${formId}/subscribe`, {
+          data: { email, api_key: "YrM6-9XdDon45pWUhXPKvw" },
+        }),
+        darwin().identify(email, { email }),
+      ])
+
+      dLog("info", "subscribe result", { results })
 
       sent.value = true
       sending.value = false
@@ -106,6 +119,7 @@ export default {
       signupForNewsletter,
       sending,
       sent,
+      emailInput,
     }
   },
 }
