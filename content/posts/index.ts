@@ -1,4 +1,11 @@
 export const map = {
+  weeklyHabitsTemplate: {
+    publishDate: "2021-8-22",
+    status: "published",
+    type: ["guide"],
+    fileImport: () => import("./weeklyHabits/post.md"),
+    imageImport: () => import("./weeklyHabits/image.webp"),
+  },
   muskFiveStepsProductDesign: {
     publishDate: "2021-8-19",
     status: "published",
