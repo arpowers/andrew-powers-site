@@ -16,19 +16,10 @@
 
         <div class="px-5 py-2">
           <a
-            href="https://www.fiction.com"
+            href="https://www.factorjs.org"
             class="text-base text-color-500 hover:text-primary-900"
           >
-            Fiction Community
-          </a>
-        </div>
-
-        <div class="px-5 py-2">
-          <a
-            href="https://www.factor.so"
-            class="text-base text-color-500 hover:text-primary-900"
-          >
-            Factor Framework
+            FactorJS
           </a>
         </div>
       </nav>

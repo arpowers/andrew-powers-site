@@ -6,10 +6,13 @@
         class="
           font-bold
           text-2xl
-          bg-primary-500
+          bg-gradient-to-b
+          from-primary-700
+          to-primary-800
           block
           rounded-md
           hover:bg-primary-800
+          border border-primary-600
         "
       >
         <svg
@@ -63,6 +66,6 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { emitEvent } from "@factor/api"
 </script>

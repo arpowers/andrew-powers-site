@@ -5,7 +5,7 @@
   <NewsletterModal />
 </template>
 
-<script setup>
+<script setup lang="ts">
 import Content from "../src/Content.vue"
 import Veil from "@factor/ui/Veil.vue"
 import Toaster from "@factor/plugin-notify/Toaster.vue"

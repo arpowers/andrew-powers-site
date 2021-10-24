@@ -5,7 +5,7 @@
     <SiteFooter />
   </div>
 </template>
-<script setup>
+<script setup lang="ts">
 import SiteHeader from "./SiteHeader.vue"
 import SiteFooter from "./SiteFooter.vue"
 import { useMeta } from "@factor/api"
@@ -17,7 +17,7 @@ useMeta({
   meta: [
     {
       name: `description`,
-      content: `Personal website of Andrew Powers (@arpowers)`,
+      content: `Website of Andrew Powers (@arpowers) - Innovation and Development Architect`,
     },
     {
       vmid: "socialImage",
