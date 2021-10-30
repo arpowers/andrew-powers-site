@@ -1,10 +1,16 @@
 <template>
-  <div class="py-20">
+  <div class="py-10">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <div class="text-center">
         <a
           href="https://www.twitter.com/arpowers"
-          class="text-base md:text-xl font-semibold tracking-wide text-blue-600"
+          class="
+            text-base
+            md:text-xl
+            font-semibold
+            tracking-wide
+            hover:text-primary-800
+          "
         >
           @arpowers
         </a>
@@ -24,6 +30,13 @@
           Andrew Powers is an entrepreneur and investor focused on innovative
           ideas in SpaceTech, Bioware, AI, and Data.
         </p>
+
+        <div class="text-center mt-8">
+          <ElemAvatar
+            email="arpowers@gmail.com"
+            class="w-16 h-16 rounded-full inline-block"
+          ></ElemAvatar>
+        </div>
       </div>
     </div>
   </div>

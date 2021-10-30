@@ -5,7 +5,7 @@
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 521 521"
-          class="h-20 w-20"
+          class="h-12 w-12"
         >
           <path
             fill="currentColor"
@@ -22,7 +22,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { emitEvent } from "@factor/api"
-</script>
