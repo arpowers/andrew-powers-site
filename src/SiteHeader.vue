@@ -1,67 +1,24 @@
 <template>
-  <div class="header py-6 px-4 flex justify-between items-center">
+  <div class="header py-6 px-4 flex justify-center items-center">
     <div class="logo">
-      <router-link
-        to="/"
-        class="
-          font-bold
-          text-2xl
-          bg-gradient-to-b
-          from-primary-700
-          to-primary-800
-          block
-          rounded-md
-          hover:bg-primary-800
-          border border-primary-600
-        "
-      >
+      <router-link to="/" class="font-bold text-2xl block rounded-md">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 521 521"
-          class="h-12 w-12"
+          class="h-20 w-20"
         >
           <path
-            fill="#FFFFFF"
+            fill="currentColor"
             d="M864.16,513.65v81.9q0,18.36,1.28,28.16a1.69,1.69,0,0,1-1.28,1.71q-44.79,20.9-91.72,20.9-38,0-61.64-16.85t-23.67-51.41q0-32.84,26.66-49.69t71-16.85q7.24,0,16.63.21c6.26.15,9.67.21,10.24.21v-7.25A41.88,41.88,0,0,0,809.34,491q-2.34-6.82-12.58-13.65t-27.3-6.83q-29.44,0-58.44,14.93-3.42,1.71-3.42-2.56V450.09c0-2.28.86-3.7,2.56-4.27Q740,430.46,779.7,430.46q41.79,0,63.13,22.83T864.16,513.65Zm-52.47,90.86V545.64q-7.68-1.7-23.89-1.7-23,0-35.41,8.53T740,576.36q0,14.94,10.24,24.31t31.57,9.39A76.52,76.52,0,0,0,811.69,604.51Z"
             transform="translate(-631.84 -279.64)"
           />
           <path
-            fill="#FFFFFF"
+            fill="currentColor"
             d="M989.57,430.46q50.76,0,77.64,29.44t26.88,74.22q0,27.75-10,49.92T1057,619.44a126.1,126.1,0,0,1-37.32,20,132.1,132.1,0,0,1-42.45,6.83q-16.63,0-25.59-3v87.88a3.49,3.49,0,0,1-3.42,3.84q-6.83.86-18.55,1.92t-20.27,1.92c-5.69.56-8.81.85-9.38.85-1.71,0-2.56-1-2.56-3V476.54a181,181,0,0,0-1.71-25.6,2.29,2.29,0,0,1,1.71-2.56Q951.18,430.47,989.57,430.46ZM984,469.71a101.87,101.87,0,0,0-32.42,5.12v128a70.68,70.68,0,0,0,29.43,6q23.88,0,40.74-18.56t16.85-53.11q0-32.42-14.72-49.91T984,469.71Z"
             transform="translate(-631.84 -279.64)"
           />
         </svg>
       </router-link>
-    </div>
-    <div class="font-medium text-sm flex space-x-4 items-center">
-      <router-link
-        to="/contact"
-        class="hover:opacity-70 cursor-pointer"
-        active-class="text-primary-500"
-      >
-        Contact
-      </router-link>
-
-      <div
-        class="cta flex items-center cursor-pointer hover:opacity-70"
-        @click.stop="emitEvent('nlSignup')"
-      >
-        <span class="mr-2">Get the Newsletter</span>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6 text-primary-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
-          />
-        </svg>
-      </div>
     </div>
   </div>
 </template>

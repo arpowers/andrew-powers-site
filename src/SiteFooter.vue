@@ -1,33 +1,8 @@
 <template>
   <footer class="">
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
-      <nav
-        class="-mx-5 -my-2 flex flex-wrap justify-center"
-        aria-label="Footer"
-      >
-        <div class="px-5 py-2">
-          <a
-            href="https://www.darwin.so"
-            class="text-base text-color-500 hover:text-primary-900"
-          >
-            Darwin Analytics
-          </a>
-        </div>
-
-        <div class="px-5 py-2">
-          <a
-            href="https://www.factorjs.org"
-            class="text-base text-color-500 hover:text-primary-900"
-          >
-            FactorJS
-          </a>
-        </div>
-      </nav>
       <div class="mt-8 flex justify-center space-x-6">
-        <a
-          href="https://www.facebook.com/arpowers"
-          class="text-color-400 hover:text-color-500"
-        >
+        <a href="https://www.facebook.com/arpowers" class="hover:text-gray-500">
           <span class="sr-only">Facebook</span>
           <svg
             class="h-6 w-6"
@@ -45,7 +20,7 @@
 
         <a
           href="https://www.instagram.com/arpowers"
-          class="text-color-400 hover:text-color-500"
+          class="hover:text-gray-500"
         >
           <span class="sr-only">Instagram</span>
           <svg
@@ -62,10 +37,7 @@
           </svg>
         </a>
 
-        <a
-          href="https://www.twitter.com/arpowers"
-          class="text-color-400 hover:text-color-500"
-        >
+        <a href="https://www.twitter.com/arpowers" class="hover:text-gray-500">
           <span class="sr-only">Twitter</span>
           <svg
             class="h-6 w-6"
@@ -79,10 +51,7 @@
           </svg>
         </a>
 
-        <a
-          href="https://www.github.com/arpowers"
-          class="text-color-400 hover:text-color-500"
-        >
+        <a href="https://www.github.com/arpowers" class="hover:text-gray-500">
           <span class="sr-only">GitHub</span>
           <svg
             class="h-6 w-6"
@@ -98,9 +67,6 @@
           </svg>
         </a>
       </div>
-      <p class="mt-8 text-center text-sm font-bold text-color-500">
-        "Non Nobis Solum"
-      </p>
     </div>
   </footer>
 </template>

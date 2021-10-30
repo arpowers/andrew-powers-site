@@ -1,74 +1,31 @@
 <template>
-  <div class="px-4 py-20">
-    <div class="lg:grid grid-cols-12 gap-20">
-      <div class="lg:col-span-6">
-        <div class="mb-4 lg:mb-8">
-          <div class="flex items-center mb-4">
-            <ElemAvatar
-              email="arpowers@gmail.com"
-              class="lg:hidden w-16 h-16 mr-4 rounded-full"
-            />
-
-            <a
-              href="https://www.twitter.com/arpowers"
-              class="
-                font-semibold
-                text-lg
-                lg:text-2xl
-                text-primary-600
-                hover:text-primary-800
-              "
-            >
-              @arpowers</a
-            >
-          </div>
-          <div class="my-6">
-            <h1
-              class="
-                text-2xl
-                lg:text-4xl
-                font-extrabold
-                tracking-tight
-                leading-tight
-              "
-            >
-              Andrew Powers
-            </h1>
-          </div>
-        </div>
-        <div class="lg:text-xl leading-relaxed space-y-4">
-          <p>
-            Welcome to my personal website. Here I write long-form studies on
-            data-driven decision making, growth marketing, engineering, and
-            philosophy. I write and deliver insights as I learn them.
-          </p>
-          <p>
-            <span class="font-bold">About Me:</span> These days, I’m the founder
-            of
-            <a
-              class="text-primary-500 hover:text-primary-800"
-              href="https://www.darwin.so"
-              >Darwin</a
-            >, where I focus on building digital experience analytics. I also do
-            occasional investing and micro acquisitions. Previously, I built and
-            sold a web tools business which I bootstrapped to 72,000+ customers.
-            I’ll share from these experiences, and more, on my newsletter.
-          </p>
-        </div>
-        <div class="my-12 flex justify-between">
-          <ElemButton
-            btn="primary"
-            size="lg"
-            @click.stop="emitEvent('nlSignup')"
-            >Get Newsletter &rarr;</ElemButton
-          >
-        </div>
-      </div>
-      <div class="img hidden lg:block lg:col-span-6">
-        <img class="rounded-full" src="./img/powers-profile.webp" />
+  <div class="py-20">
+    <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <a
+          href="https://www.twitter.com/arpowers"
+          class="text-base md:text-xl font-semibold tracking-wide text-blue-600"
+        >
+          @arpowers
+        </a>
+        <p
+          class="
+            mt-3
+            text-4xl
+            font-extrabold
+            text-gray-900
+            sm:text-5xl sm:tracking-tight
+            lg:text-6xl
+          "
+        >
+          The future is up to us.
+        </p>
+        <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">
+          Andrew Powers is an entrepreneur and investor focused on innovative
+          ideas in SpaceTech, Bioware, AI, and Data.
+        </p>
       </div>
     </div>
-    <BlogList />
   </div>
 </template>
 <script setup lang="ts">
