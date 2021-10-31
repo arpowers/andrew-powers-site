@@ -1,6 +1,6 @@
 <template>
   <div class="py-10">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+    <div class="max-w-xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <div class="text-center">
         <a
           href="https://www.twitter.com/arpowers"
@@ -21,14 +21,14 @@
             font-extrabold
             text-gray-900
             sm:text-5xl sm:tracking-tight
-            lg:text-6xl
           "
         >
-          The future is up to us.
+          The best way to predict the future, is to create it.
         </p>
-        <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-          Andrew Powers is an entrepreneur and investor focused on innovative
-          ideas in SpaceTech, Bioware, AI, and Data.
+        <p class="max-w-xl mt-5 mx-auto text-xl text-gray-700">
+          Andrew Powers is an entrepreneur, investor and software developer
+          focused on innovative ideas in SpaceTech, Bioware, AI, data, and
+          digital experience.
         </p>
 
         <div class="text-center mt-8">
