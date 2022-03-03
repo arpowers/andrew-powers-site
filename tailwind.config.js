@@ -1,63 +1,38 @@
-const colors = require("tailwindcss/colors")
-const tw = require("@factor/server-utils/tailwind")
-
-const darwin = {
-  50: "#f6f5ff",
-  100: "#eeebff",
-  200: "#d4ccff",
-  300: "#baadff",
-  400: "#8670ff",
-  500: "#5233ff",
-  600: "#4a2ee6",
-  700: "#3e26bf",
-  800: "#311f99",
-  900: "#211c36",
-}
-const darwinDark = {
-  50: "#f6f5ff",
-  100: "#e4dfed",
-  200: "#e4d7fc",
-  300: "#baadff",
-  400: "#8670ff",
-  500: "#5233ff",
-  600: "#48416e",
-  700: "#3e26bf",
-  800: "#2b2645",
-  900: "#211c36",
-}
-
-const color = {
-  25: "#fafafa",
-  50: "#F8FAFC",
-  75: "#F8FAFC",
-  100: "#e3eaf3",
-  200: "#E3E8EE",
-  300: "#d1dce5",
-  400: "#aec2d2",
-  500: "#8ba8bf",
-  600: "#7d97ac",
-  700: "#687e8f",
-  800: "#536573",
-  900: "#44525e",
-}
-
-delete colors.lightBlue
-
 module.exports = {
   mode: "jit",
-  purge: {
-    content: ["./src/**/*.{vue,js,ts,jsx,tsx,html}", ...tw.paths],
-  },
+  content: ["./src/**/*.{vue,js,ts,jsx,tsx,html}"],
   plugins: [require("@tailwindcss/forms")],
 
   theme: {
-    colors: {
-      ...colors,
-      transparent: "transparent",
-      primary: darwin,
-      dark: darwinDark,
-      bluegray: color,
-      color,
+    extend: {
+      colors: {
+        transparent: "transparent",
+        primary: {
+          DEFAULT: "#48BB78",
+          50: "#EFF9F3",
+          100: "#DDF2E6",
+          200: "#B8E4CA",
+          300: "#92D7AF",
+          400: "#6DC993",
+          500: "#48BB78",
+          600: "#389860",
+          700: "#2B7249",
+          800: "#1D4D31",
+          900: "#0F2819",
+        },
+        color: {
+          50: "#f6f6f6",
+          100: "#ececec",
+          200: "#d0d0d0",
+          300: "#b4b3b3",
+          400: "#7b7b7b",
+          500: "#434242",
+          600: "#3c3b3b",
+          700: "#323232",
+          800: "#282828",
+          900: "#212020",
+        },
+      },
     },
   },
 }
