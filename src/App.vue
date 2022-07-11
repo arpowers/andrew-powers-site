@@ -1,13 +1,9 @@
 <template>
-  <Content />
-  <Veil />
-  <Toaster />
+  <AppContent />
 </template>
 
 <script setup lang="ts">
-import Content from "./AppContent.vue"
-import Veil from "@factor/ui/LoadingVeil.vue"
-import Toaster from "@factor/plugin-notify/NotifyToaster.vue"
+import AppContent from "./AppContent.vue"
 </script>
 
 <style lang="less">

@@ -1,21 +1,26 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "rootDir": ".",
+    "useDefineForClassFields": true,
     "outDir": "dist",
-    "sourceMap": false,
-    "target": "es2020",
     "module": "ESNext",
+    "target": "ESNext",
     "moduleResolution": "node",
-    "allowJs": false,
+    "allowJs": true,
     "strict": true,
-    "noUnusedLocals": true,
     "experimentalDecorators": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "rootDir": ".",
     "removeComments": true,
     "types": ["node"],
-    "lib": ["ES2020", "DOM"] // vue/vetur needs this
-  },
-  "exclude": ["`node_modules/(?!(@factor))`", "cdk.out", ".ref/**", "**/dist"]
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "inlineSourceMap": true,
+    "allowSyntheticDefaultImports": true
+  }
 }

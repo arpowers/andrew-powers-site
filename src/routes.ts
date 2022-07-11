@@ -3,7 +3,7 @@ import { AppRoute } from "@factor/api"
 
 export const routes = [
   new AppRoute({
-    key: "home",
+    name: "home",
     path: "/",
     component: PageHome,
   }),
